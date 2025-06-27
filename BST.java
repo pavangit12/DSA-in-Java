@@ -3,7 +3,7 @@ public class BST {
     Node root;
     public void insert(int value){
 
-        root=insert(root,value); // Comment
+        root=insert(root,value); // Comment 2
     }
     public Node insert (Node node,int value){
         if(node==null){
