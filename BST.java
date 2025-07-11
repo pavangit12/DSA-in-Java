@@ -11,7 +11,7 @@ public class BST {
             return nN;
         }
         if(value<node.value){
-            node.left=insert(node.left,value);
+            node.left=insert(node.left,value);//merg2
         }
         if(value>=node.value){
             node.right=insert(node.right,value);
